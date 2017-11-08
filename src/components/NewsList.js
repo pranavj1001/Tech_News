@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { ListView } from 'react-native';
-import { NewsItem } from './NewsItem';
+import NewsItem from './NewsItem';
 
 class NewsList extends Component {
 
   componentWillMount() {
     const ds = new ListView.DataSource({
-      rowsHasChanged: (r1, r2) => r1 !== r2
+      rowHasChanged: (r1, r2) => r1 !== r2
     });
     this.dataSource = ds.cloneWithRows(this.props.news);
   }
@@ -17,7 +17,6 @@ class NewsList extends Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <ListView
         dataSource={this.dataSource}
