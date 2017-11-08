@@ -6,9 +6,11 @@ import reducers from './reducers';
 import { Header } from './components/common';
 import NewsList from './components/NewsList';
 
+const store = createStore(reducers);
+
 const App = () => {
   return (
-    <Provider store={createStore(reducers)}>
+    <Provider store={store}>
       <View>
         <Header headerText="Tech News" />
         <NewsList />
