@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Explore Wealth and Income Inequality in the World Wealth and Income Database",
+    "description": "World The source for global inequality data. Open access, high quality wealth and income inequality data developed by an international academic consortium."
+  },
+  {
+    "id": 2,
+    "title": "Steven A. Cohen, Andreessen-Backed DIY Quant Fund Struggles",
+    "description": "A quant-trading firm backed by hedge-fund investor Steven A. Cohen and venture-capital firm Andreessen Horowitz has run into early problems."
+  },
+  {
+    "id": 3,
+    "title": "NVIM v0.2.1 · neovim/neovim@c67dd5a",
+    "description": "FEATURES:\n0e873a30f307 Lua(Jit) built-in #4411\n5b32bce73c93 Windows: `:terminal` #7007\n7b0ceb3726e6 UI/API: externalize cmdline #7173\nb67f58b2845a UI/API: externalize wildmenu #7454\nb23aa1cf099e UI..."
+  },
+  {
+    "id": 4,
+    "title": "An engineer’s guide to cloud capacity planning – Increment issue 2: Cloud",
+    "description": "If you’re a small company with big dreams for the future, one of the biggest advantages cloud infrastructure providers have over traditional provisioning systems is the flexibility they offer you to adjust the resources your application uses."
+  },
+  {
+    "id": 5,
+    "title": "'$300m in cryptocurrency' accidentally lost forever due to bug",
+    "description": "User mistakenly takes control of hundreds of wallets containing cryptocurrency Ether, destroying them in a panic while trying to give them back"
+  },
+  {
+    "id": 6,
+    "title": "CDC scientists pursue deadly monkeypox virus in Africa",
+    "description": "A mysterious disease is causing outbreaks that could easily spread across the world."
+  },
+  {
+    "id": 7,
+    "title": "Archiving repositories",
+    "description": "Just because a repository isn't actively developed anymore and you don't want to accept additional contributions doesn't mean you want to delete it. Now archive repositories on GitHub to make them ..."
+  },
+  {
+    "id": 8,
+    "title": "Spiegel hopes to save Snapchat with an algorithmic feed",
+    "description": "nap got destroyed by Wall Street today after a horrible Q3 earnings where revenue and user growth fell well under expectations. So to get things going in the"
+  },
+  {
+    "id": 9,
+    "title": "These are Uber’s new ‘cultural norms’",
+    "description": "At Uber's all-hands meeting today, CEO Dara Khosrowshahi announced the transportation company's new \"cultural norms,\" which includes values like \"We build"
+  },
+  {
+    "id": 10,
+    "title": "Apple Pay Cash launches in beta today, letting you send and receive cash in Messages",
+    "description": "Apple is soft-launching direct, person-to-person payments in an iMessage today with the Apple Pay Cash beta. The feature, which was announced earlier this"
+  }
+]
