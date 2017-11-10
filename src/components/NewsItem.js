@@ -4,12 +4,23 @@ import { CardSection } from './common';
 
 class NewsItem extends Component {
   render() {
+    const { titleStyle } = styles;
+
     return (
       <CardSection>
-        <Text>{this.props.news.title}</Text>
+        <Text style={titleStyle}>
+          {this.props.news.title}
+        </Text>
       </CardSection>
     );
   }
 }
+
+const styles = {
+  titleStyle: {
+    fontSize: 18,
+    paddingLeft: 15
+  }
+};
 
 export default NewsItem;
