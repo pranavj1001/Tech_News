@@ -31,4 +31,5 @@ const mapStateToProps = state => {
   return { news: state.news };
 };
 
+// connect is like our windoe to the redux from react
 export default connect(mapStateToProps)(NewsList);

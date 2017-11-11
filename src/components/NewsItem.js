@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
+import { connect } from 'react-redux';
 import { CardSection } from './common';
+import * as actions from '../actions';
 
 class NewsItem extends Component {
   render() {
     const { titleStyle } = styles;
+    console.log(this.props);
 
     return (
       <CardSection>
@@ -23,4 +26,4 @@ const styles = {
   }
 };
 
-export default NewsItem;
+export default connect(null, actions)(NewsItem);
