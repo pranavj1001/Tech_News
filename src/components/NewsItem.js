@@ -5,6 +5,15 @@ import { CardSection } from './common';
 import * as actions from '../actions';
 
 class NewsItem extends Component {
+  renderDescription() {
+    const { news, selectedNewsId } = this.props;
+    if (news.id === selectedNewsId) {
+      return (
+        <Text>{news.description}</Text>
+      );
+    }
+  }
+
   render() {
     const { titleStyle } = styles;
     const { id, title } = this.props.news;
@@ -19,6 +28,7 @@ class NewsItem extends Component {
               {title}
             </Text>
           </CardSection>
+          {this.renderDescription()}
         </View>
       </TouchableWithoutFeedback>
     );
@@ -32,4 +42,8 @@ const styles = {
   }
 };
 
-export default connect(null, actions)(NewsItem);
+const mapStateToProps = state => {
+  return { selectedNewsId: state.selectedNewsId };
+};
+
+export default connect(mapStateToProps, actions)(NewsItem);
