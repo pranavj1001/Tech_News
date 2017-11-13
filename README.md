@@ -9,17 +9,18 @@ It can run on both android and ios devices.
 
 ## ScreenShot
 
-Uploading...
+<p align="center">
+<img src="ScreenShot.png">
+</p>
 
 ## To get started
 
-1. Make sure you have your access token from Spotify
-2. Download or clone this repo
-3. Make sure you have node, react-native cli tools installed on your machine
-4. cd to your project folder
-5. Run this command to install all the dependencies 
+1. Download or clone this repo
+2. Make sure you have node, react-native cli tools installed on your machine
+3. cd to your project folder
+4. Run this command to install all the dependencies 
 ```npm install```
-6. Run this command to startup the app
+5. Run this command to startup the app
 ```react-native run-ios``` or ```react-native run-android```
 
 **Note**: The above mentioned guide has been tried and tested on mac. However, the same guide should also work on windows machines.
