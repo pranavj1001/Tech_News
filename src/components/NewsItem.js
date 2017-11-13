@@ -6,8 +6,8 @@ import * as actions from '../actions';
 
 class NewsItem extends Component {
   renderDescription() {
-    const { news, selectedNewsId } = this.props;
-    if (news.id === selectedNewsId) {
+    const { news, expanded } = this.props;
+    if (expanded) {
       return (
         <Text>{news.description}</Text>
       );
@@ -42,8 +42,9 @@ const styles = {
   }
 };
 
-const mapStateToProps = state => {
-  return { selectedNewsId: state.selectedNewsId };
+const mapStateToProps = (state, ownProps) => {
+  const expanded = state.selectedNewsId === ownProps.news.id;
+  return { expanded };
 };
 
 export default connect(mapStateToProps, actions)(NewsItem);
