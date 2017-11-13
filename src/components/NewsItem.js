@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
-import { Text, View, TouchableWithoutFeedback } from 'react-native';
+import {
+  Text,
+  View,
+  TouchableWithoutFeedback,
+  LayoutAnimation
+} from 'react-native';
 import { connect } from 'react-redux';
 import { CardSection } from './common';
 import * as actions from '../actions';
 
 class NewsItem extends Component {
+  componentWillUpdate() {
+    LayoutAnimation.spring();
+  }
+
   renderDescription() {
     const { news, expanded } = this.props;
     const { textStyle } = styles;
