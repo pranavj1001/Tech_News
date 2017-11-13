@@ -3,8 +3,7 @@ A simple react-native and redux application.
 
 Hey there,
 
-This repo contains a simple react-native and redux application. It shows tech news in a list. Currently, the news are hardcoded
-in a json file. Future plans are to get data from a news api. It is developed using React-Native and Redux. 
+This repo contains a simple react-native and redux application. It shows tech news in a list. Currently, the news are hardcoded in a json file. Future plans are to get data from a news api. Smooth Animations are used when the user taps on the news. It is developed using React-Native and Redux. 
 It can run on both android and ios devices.
 
 ## ScreenShot
