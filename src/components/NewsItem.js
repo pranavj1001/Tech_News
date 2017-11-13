@@ -7,9 +7,14 @@ import * as actions from '../actions';
 class NewsItem extends Component {
   renderDescription() {
     const { news, expanded } = this.props;
+    const { textStyle } = styles;
     if (expanded) {
       return (
-        <Text>{news.description}</Text>
+        <CardSection>
+          <Text style={textStyle}>
+            {news.description}
+          </Text>
+        </CardSection>
       );
     }
   }
@@ -39,6 +44,11 @@ const styles = {
   titleStyle: {
     fontSize: 18,
     paddingLeft: 15
+  },
+  textStyle: {
+    flex: 1,
+    paddingLeft: 13,
+    paddingRight: 13
   }
 };
 
